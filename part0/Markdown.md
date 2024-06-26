@@ -1,6 +1,6 @@
-sequenceDiagram
-participant browser
-participant server
+    sequenceDiagram
+    participant browser
+    participant server
 
     Note right of browser: The browser makes a POST with the data: good morning
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note (data:good mornig)
